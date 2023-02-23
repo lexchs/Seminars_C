@@ -1,4 +1,4 @@
-﻿Console.WriteLine("Введите трехзначное число число");
+﻿Console.Write("Введите число ");
 
 int num = int.Parse(Console.ReadLine());
 
