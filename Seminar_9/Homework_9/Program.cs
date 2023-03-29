@@ -25,6 +25,13 @@ int Prompt(string message)
     return (M, N);
 }
 
+(int, int) CheckInputAkkerman(int M, int N)
+{
+    M = Math.Abs(M);
+    N = Math.Abs(N);
+    return (M, N);
+}
+
 void GetEvenNumbers(int M, int N)
 {
 
@@ -103,5 +110,5 @@ int GetAkkermanFunction(int m, int n)
 
 // int M3 = Prompt("Введите число M: ");
 // int N3 = Prompt("Введите число N: ");
-// (M3, N3) = CheckInput(M3, N3);
+// (M3, N3) = CheckInputAkkerman(M3, N3);
 // Console.WriteLine($"Результат вычисления функции Аккермана для чисел {M3} и {N3} = {GetAkkermanFunction(M3,N3)}");
